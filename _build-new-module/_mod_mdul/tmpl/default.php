@@ -3,7 +3,7 @@
  * @package     Joomla.Site
  * @subpackage  mod__mdul
  *
- * @copyright   Copyright (C) NPEU 2019.
+ * @copyright   Copyright (C) {{OWNER}} {{YEAR}}.
  * @license     MIT License; see LICENSE.md
  */
 

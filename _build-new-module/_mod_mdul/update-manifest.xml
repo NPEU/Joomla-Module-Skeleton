@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>{{OWNER}}: mod__mdul</name>
+        <description>Joomla! mod__mdul module</description>
+        <element>mod__mdul</element>
+        <type>module</type>
+        <version>1.0.0</version>
+        <client>site</client>
+        <infourl title="{{OWNER}}: mod__mdul">https://github.com/{{OWNER}}/mod__mdul/releases/tag/1.0.0</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/{{OWNER}}/mod__mdul/archive/v1.0.0.zip</downloadurl>
+        </downloads>
+        <targetplatform name="joomla" />
+        <tags>
+            <tag>stable</tag>
+        </tags>
+    </update>
+</updates>
