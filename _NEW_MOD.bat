@@ -12,7 +12,7 @@ set /p Nm= Enter new module name (e.g. Alerts):
 if [%Nm%]==[] goto checkname
 
 :promptdesc
-set /p Ds= Enter new module description (e.g. "User alerts plugin"):
+set /p Ds= Enter new module description (e.g. "User alerts module"):
 
 if [%Ds%]==[] goto checkdesc
 
