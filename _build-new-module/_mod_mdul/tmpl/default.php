@@ -14,7 +14,7 @@ $doc = JFactory::getDocument();
 
 ?>
 
-<?php if ($params->get('show_title')): ?>
+<?php if ($module->showtitle): ?>
 <p><?php echo $params->get('title'); ?></p>
 <?php endif; ?>
 <?php if ($params->get('thing')): ?>
