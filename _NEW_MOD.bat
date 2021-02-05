@@ -16,7 +16,7 @@ set /p Ds= Enter new module description (e.g. "User alerts module"):
 
 if [%Ds%]==[] goto checkdesc
 
-php -f _build-new-module/index.php owner=%Ow% name=%Nm% group=%Gp% description=%Ds%
+php -f _build-new-module/index.php owner=%Ow% name=%Nm% description=%Ds%
 
 pause
 goto :eof
@@ -26,7 +26,6 @@ goto :eof
 @echo You must enter an owner name
 pause
 goto :promptowner
-
 
 :checkname
 @echo You must enter a name
