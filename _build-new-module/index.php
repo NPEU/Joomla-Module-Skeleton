@@ -24,8 +24,11 @@ copy_dir(__DIR__ . '/_mod_mdul', $new_dir);
 
 perform_renames(
     $new_dir,
-    array('_mdul', str_replace(' ', '', $lc_name)),
-    array(
+    [
+        '_mdul'              => str_replace(' ', '', $lc_name),
+        '_Mdul'              => str_replace(' ', '', ucfirst($lc_name))
+    ],
+    [
         '{{OWNER}}'         => $owner,
         '{{NAME}}'          => $name,
         '{{NAME-NO-SPACE}}' => str_replace(' ', '', $name),
@@ -35,6 +38,6 @@ perform_renames(
         '_MDUL'             => '_' . str_replace(' ', '', $uc_name),
         '{{MONTH}}'         => date('F'),
         '{{YEAR}}'          => date('Y')
-    )
+    ]
 );
 ?>

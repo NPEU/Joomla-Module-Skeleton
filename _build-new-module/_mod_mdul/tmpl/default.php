@@ -9,9 +9,6 @@
 
 defined('_JEXEC') or die;
 
-
-$doc = JFactory::getDocument();
-
 ?>
 
 <?php if ($module->showtitle): ?>
