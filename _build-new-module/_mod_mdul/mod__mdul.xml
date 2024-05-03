@@ -22,7 +22,7 @@
     <namespace path="src">{{OWNER}}\Module\Mdul</namespace>
 
     <files>
-        <filename module="mod__mdul">services</filename>
+        <folder module="mod__mdul">services</folder>
         <folder>language</folder>
         <folder>src</folder>
         <folder>tmpl</folder>
