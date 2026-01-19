@@ -2,12 +2,13 @@
 
 namespace {{OWNER}}\Module\Mdul\Site\Dispatcher;
 
+\defined('_JEXEC') or die;
+
 use Joomla\CMS\Dispatcher\AbstractModuleDispatcher;
 use Joomla\CMS\Helper\HelperFactoryAwareInterface;
 use Joomla\CMS\Helper\HelperFactoryAwareTrait;
 use Joomla\CMS\Helper\ModuleHelper;
 
-defined('_JEXEC') or die;
 
 /**
  * Dispatcher class for mod__mdul

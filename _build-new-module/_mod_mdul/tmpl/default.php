@@ -7,7 +7,7 @@
  * @license     MIT License; see LICENSE.md
  */
 
-defined('_JEXEC') or die;
+\defined('_JEXEC') or die;
 
 ?>
 

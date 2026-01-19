@@ -2,13 +2,14 @@
 
 namespace {{OWNER}}\Module\Mdul\Site\Helper;
 
+\defined('_JEXEC') or die;
+
 use Joomla\CMS\Application\SiteApplication;
 use Joomla\CMS\Factory;
 use Joomla\Database\DatabaseAwareInterface;
 use Joomla\Database\DatabaseAwareTrait;
 use Joomla\Registry\Registry;
 
-defined('_JEXEC') or die;
 
 /**
  * Helper for mod__mdul
